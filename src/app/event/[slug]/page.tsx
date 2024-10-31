@@ -2,7 +2,7 @@ import H1 from "@/components/H1";
 
 const EventsPage = () => {
   return (
-    <div>
+    <div className="">
       <H1>Event Page</H1>
     </div>
   );
