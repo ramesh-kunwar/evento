@@ -22,7 +22,7 @@ const EventsPage = async ({ params }: EventsPageProps) => {
         {city === "all" && "All Events"}
         {city !== "all" &&
           `Events in ${city.charAt(0).toUpperCase() + city.slice(1)}
-`}
+ `}
       </H1>
       <EventsList events={events} />
     </main>
